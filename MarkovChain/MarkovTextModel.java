@@ -89,8 +89,8 @@ public class MarkovTextModel
 
 		private void OutputNode(MarkovNode node, int parentCount, String pad)
 		{
-
-			System.out.printf("%1$s%2$s - {2:N0} ({3:P2})" + "\r\n", pad, node.Ch, node.size(), (double)node.size() / parentCount);
+//TODO: Fix Formatting
+			System.out.printf(String.format(("%1$s -- "|%,d|" -- %3$") pad, node.Ch, node.size(), (double)node.size() / parentCount);
 			if (node.Children != null)
 			{
 				int cnt = 0;
