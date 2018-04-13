@@ -1,2 +1,5 @@
 # Hentai-Quote-Generator
-this project is a grave sin and i'm really sorry
+This is a project using the Markov Model to generate quotes from doujins.
+
+I'll provide a data sample later.
+
