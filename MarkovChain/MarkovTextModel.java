@@ -1,7 +1,7 @@
 import java.util.*;
 
-//thanks to datadata for giving me the C# version of this code.
-// m1saka 2018
+//thanks to datadata
+// funct1onal 2018
 
 public class MarkovTextModel
 {
